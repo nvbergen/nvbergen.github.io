@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SQL on Nick Van Bergen</title>
+    <link>http://localhost:1313/tags/sql/</link>
+    <description>Recent content in SQL on Nick Van Bergen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>test blog post 6</title>
+      <link>http://localhost:1313/blogs/_archived-items/test-blog-post-6/</link>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/_archived-items/test-blog-post-6/</guid>
+      <description>&lt;h2 id=&#34;this-is-a-test-post&#34;&gt;This is a test post&lt;/h2&gt;&#xA;&lt;p&gt;SQL is amazing.&lt;/p&gt;&#xA;&lt;p&gt;written by NVB&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
