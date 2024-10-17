@@ -6,15 +6,8 @@
     <description>Recent content in Tags on Nick Van Bergen Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://nvbergen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Algorithm</title>
-      <link>https://nvbergen.github.io/tags/algorithm/</link>
-      <pubDate>Wed, 16 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://nvbergen.github.io/tags/algorithm/</guid>
-      <description></description>
-    </item>
     <item>
       <title>SQL</title>
       <link>https://nvbergen.github.io/tags/sql/</link>
@@ -30,6 +23,55 @@
       <description></description>
     </item>
     <item>
+      <title>Example</title>
+      <link>https://nvbergen.github.io/tags/example/</link>
+      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
+      <guid>https://nvbergen.github.io/tags/example/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Markdown</title>
+      <link>https://nvbergen.github.io/tags/markdown/</link>
+      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
+      <guid>https://nvbergen.github.io/tags/markdown/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mathjax</title>
+      <link>https://nvbergen.github.io/tags/mathjax/</link>
+      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
+      <guid>https://nvbergen.github.io/tags/mathjax/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Syntax</title>
+      <link>https://nvbergen.github.io/tags/syntax/</link>
+      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
+      <guid>https://nvbergen.github.io/tags/syntax/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sample</title>
+      <link>https://nvbergen.github.io/tags/sample/</link>
+      <pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate>
+      <guid>https://nvbergen.github.io/tags/sample/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Emoji</title>
+      <link>https://nvbergen.github.io/tags/emoji/</link>
+      <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
+      <guid>https://nvbergen.github.io/tags/emoji/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Support</title>
+      <link>https://nvbergen.github.io/tags/support/</link>
+      <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
+      <guid>https://nvbergen.github.io/tags/support/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Content</title>
       <link>https://nvbergen.github.io/tags/content/</link>
       <pubDate>Sat, 03 Apr 2021 19:53:33 +0530</pubDate>
@@ -37,24 +79,10 @@
       <description></description>
     </item>
     <item>
-      <title>Example</title>
-      <link>https://nvbergen.github.io/tags/example/</link>
-      <pubDate>Sat, 03 Apr 2021 19:53:33 +0530</pubDate>
-      <guid>https://nvbergen.github.io/tags/example/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Rich</title>
       <link>https://nvbergen.github.io/tags/rich/</link>
       <pubDate>Sat, 03 Apr 2021 19:53:33 +0530</pubDate>
       <guid>https://nvbergen.github.io/tags/rich/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sample</title>
-      <link>https://nvbergen.github.io/tags/sample/</link>
-      <pubDate>Sat, 03 Apr 2021 19:53:33 +0530</pubDate>
-      <guid>https://nvbergen.github.io/tags/sample/</guid>
       <description></description>
     </item>
   </channel>
