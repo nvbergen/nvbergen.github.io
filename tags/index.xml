@@ -2,87 +2,87 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Nick Van Bergen Portfolio</title>
-    <link>https://nvbergen.github.io/tags/</link>
+    <link>https://www.nickvanbergen.com/tags/</link>
     <description>Recent content in Tags on Nick Van Bergen Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 15 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://nvbergen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.nickvanbergen.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SQL</title>
-      <link>https://nvbergen.github.io/tags/sql/</link>
+      <link>https://www.nickvanbergen.com/tags/sql/</link>
       <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://nvbergen.github.io/tags/sql/</guid>
+      <guid>https://www.nickvanbergen.com/tags/sql/</guid>
       <description></description>
     </item>
     <item>
       <title>Test</title>
-      <link>https://nvbergen.github.io/tags/test/</link>
+      <link>https://www.nickvanbergen.com/tags/test/</link>
       <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://nvbergen.github.io/tags/test/</guid>
+      <guid>https://www.nickvanbergen.com/tags/test/</guid>
       <description></description>
     </item>
     <item>
       <title>Example</title>
-      <link>https://nvbergen.github.io/tags/example/</link>
+      <link>https://www.nickvanbergen.com/tags/example/</link>
       <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
-      <guid>https://nvbergen.github.io/tags/example/</guid>
+      <guid>https://www.nickvanbergen.com/tags/example/</guid>
       <description></description>
     </item>
     <item>
       <title>Markdown</title>
-      <link>https://nvbergen.github.io/tags/markdown/</link>
+      <link>https://www.nickvanbergen.com/tags/markdown/</link>
       <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
-      <guid>https://nvbergen.github.io/tags/markdown/</guid>
+      <guid>https://www.nickvanbergen.com/tags/markdown/</guid>
       <description></description>
     </item>
     <item>
       <title>Mathjax</title>
-      <link>https://nvbergen.github.io/tags/mathjax/</link>
+      <link>https://www.nickvanbergen.com/tags/mathjax/</link>
       <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
-      <guid>https://nvbergen.github.io/tags/mathjax/</guid>
+      <guid>https://www.nickvanbergen.com/tags/mathjax/</guid>
       <description></description>
     </item>
     <item>
       <title>Syntax</title>
-      <link>https://nvbergen.github.io/tags/syntax/</link>
+      <link>https://www.nickvanbergen.com/tags/syntax/</link>
       <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
-      <guid>https://nvbergen.github.io/tags/syntax/</guid>
+      <guid>https://www.nickvanbergen.com/tags/syntax/</guid>
       <description></description>
     </item>
     <item>
       <title>Sample</title>
-      <link>https://nvbergen.github.io/tags/sample/</link>
+      <link>https://www.nickvanbergen.com/tags/sample/</link>
       <pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate>
-      <guid>https://nvbergen.github.io/tags/sample/</guid>
+      <guid>https://www.nickvanbergen.com/tags/sample/</guid>
       <description></description>
     </item>
     <item>
       <title>Emoji</title>
-      <link>https://nvbergen.github.io/tags/emoji/</link>
+      <link>https://www.nickvanbergen.com/tags/emoji/</link>
       <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
-      <guid>https://nvbergen.github.io/tags/emoji/</guid>
+      <guid>https://www.nickvanbergen.com/tags/emoji/</guid>
       <description></description>
     </item>
     <item>
       <title>Support</title>
-      <link>https://nvbergen.github.io/tags/support/</link>
+      <link>https://www.nickvanbergen.com/tags/support/</link>
       <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
-      <guid>https://nvbergen.github.io/tags/support/</guid>
+      <guid>https://www.nickvanbergen.com/tags/support/</guid>
       <description></description>
     </item>
     <item>
       <title>Content</title>
-      <link>https://nvbergen.github.io/tags/content/</link>
+      <link>https://www.nickvanbergen.com/tags/content/</link>
       <pubDate>Sat, 03 Apr 2021 19:53:33 +0530</pubDate>
-      <guid>https://nvbergen.github.io/tags/content/</guid>
+      <guid>https://www.nickvanbergen.com/tags/content/</guid>
       <description></description>
     </item>
     <item>
       <title>Rich</title>
-      <link>https://nvbergen.github.io/tags/rich/</link>
+      <link>https://www.nickvanbergen.com/tags/rich/</link>
       <pubDate>Sat, 03 Apr 2021 19:53:33 +0530</pubDate>
-      <guid>https://nvbergen.github.io/tags/rich/</guid>
+      <guid>https://www.nickvanbergen.com/tags/rich/</guid>
       <description></description>
     </item>
   </channel>

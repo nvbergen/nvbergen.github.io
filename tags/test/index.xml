@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Test on Nick Van Bergen Portfolio</title>
-    <link>https://nvbergen.github.io/tags/test/</link>
+    <link>https://www.nickvanbergen.com/tags/test/</link>
     <description>Recent content in Test on Nick Van Bergen Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 15 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://nvbergen.github.io/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.nickvanbergen.com/tags/test/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>test blog post 61</title>
-      <link>https://nvbergen.github.io/blogs/test-blog-post-6/</link>
+      <link>https://www.nickvanbergen.com/blogs/test-blog-post-6/</link>
       <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://nvbergen.github.io/blogs/test-blog-post-6/</guid>
+      <guid>https://www.nickvanbergen.com/blogs/test-blog-post-6/</guid>
       <description>&lt;h2 id=&#34;this-is-a-test-post&#34;&gt;This is a test post&lt;/h2&gt;&#xA;&lt;p&gt;This should be the only file in the blog post section&#xA;testing automation task to synch folders at 14:00&lt;/p&gt;&#xA;&lt;h2 id=&#34;vimeo-simple-shortcode&#34;&gt;Vimeo Simple Shortcode&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{&amp;lt; vimeo 146022717 &amp;gt;}}&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;br&gt;&lt;br&gt;&#xA;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;  &lt;iframe src=&#34;https://player.vimeo.com/video/146022717&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;vimeo video&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;youtube-simple-shortcode&#34;&gt;Youtube Simple Shortcode&lt;/h2&gt;&#xA;&lt;p&gt;maybe a shortcode keyword or something happing when &lt;code&gt;templater&lt;/code&gt; templates dropped on top of blog post. the specific shortcode fails and breaks the blog directory from rendering. Knock on is that dark and light theme switch breaks.&lt;/p&gt;</description>
     </item>
   </channel>
