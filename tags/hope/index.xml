@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Nick Van Bergen Portfolio</title>
-    <link>https://www.nickvanbergen.com/blogs/</link>
-    <description>Recent content in Blogs on Nick Van Bergen Portfolio</description>
+    <title>Hope on Nick Van Bergen Portfolio</title>
+    <link>https://www.nickvanbergen.com/tags/hope/</link>
+    <description>Recent content in Hope on Nick Van Bergen Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 22 Oct 2024 13:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.nickvanbergen.com/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.nickvanbergen.com/tags/hope/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog 000 - Restarting</title>
       <link>https://www.nickvanbergen.com/blogs/blog-000---restarting/</link>
