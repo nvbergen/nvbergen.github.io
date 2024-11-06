@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Nick Van Bergen Portfolio</title>
-    <link>https://www.nickvanbergen.com/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Nick Van Bergen Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 22 Oct 2024 13:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.nickvanbergen.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Grit</title>
-      <link>https://www.nickvanbergen.com/tags/grit/</link>
+      <link>http://localhost:1313/tags/grit/</link>
       <pubDate>Tue, 22 Oct 2024 13:00:00 +0000</pubDate>
-      <guid>https://www.nickvanbergen.com/tags/grit/</guid>
+      <guid>http://localhost:1313/tags/grit/</guid>
       <description></description>
     </item>
     <item>
       <title>Hope</title>
-      <link>https://www.nickvanbergen.com/tags/hope/</link>
+      <link>http://localhost:1313/tags/hope/</link>
       <pubDate>Tue, 22 Oct 2024 13:00:00 +0000</pubDate>
-      <guid>https://www.nickvanbergen.com/tags/hope/</guid>
+      <guid>http://localhost:1313/tags/hope/</guid>
       <description></description>
     </item>
     <item>
       <title>Mindset</title>
-      <link>https://www.nickvanbergen.com/tags/mindset/</link>
+      <link>http://localhost:1313/tags/mindset/</link>
       <pubDate>Tue, 22 Oct 2024 13:00:00 +0000</pubDate>
-      <guid>https://www.nickvanbergen.com/tags/mindset/</guid>
+      <guid>http://localhost:1313/tags/mindset/</guid>
       <description></description>
     </item>
   </channel>
