@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Progress on Nick Van Bergen Portfolio</title>
+    <link>https://www.nickvanbergen.com/tags/progress/</link>
+    <description>Recent content in Progress on Nick Van Bergen Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 06 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.nickvanbergen.com/tags/progress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog 001 - Baseline</title>
+      <link>https://www.nickvanbergen.com/blogs/blog-001---baseline/</link>
+      <pubDate>Wed, 06 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.nickvanbergen.com/blogs/blog-001---baseline/</guid>
+      <description>&lt;h1 id=&#34;blog-001---baseline&#34;&gt;Blog 001 - Baseline&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;TL/DR - Progress over Perfection&#xA;In this post I reflect on my journey of skill improvement in data analytics, embracing progress over perfection.  My results demonstrate that being vulnerable and objective can provide key insights that are essential for ongoing learning and lead to overall progress vs trying to be a data expert in everything data. Conducting regular retrospectives on my progress by attempting a quantitative and qualitative analytical approach.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

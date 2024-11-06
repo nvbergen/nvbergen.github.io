@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html>
+
+<head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+<link rel="icon" href=/icons/line_robot.svg type="image/gif">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</noscript>
+
+
+<link rel="stylesheet" href="/css/font.css" media="all">
+
+
+
+<meta property="og:url" content="https://www.nickvanbergen.com/blogs/blog-001---baseline/">
+  <meta property="og:site_name" content="Nick Van Bergen Portfolio">
+  <meta property="og:title" content="Blog 001 - Baseline">
+  <meta property="og:description" content="In this post I reflect on my journey of skill improvement in data analytics, embracing progress over perfection.  My results demonstrate that being vulnerable and objective can provide key insights that are essential for ongoing learning and lead to overall progress vs trying to be a data expert in everything data. Conducting regular retrospectives on my progress by attempting a quantitative and qualitative analytical approach.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blogs">
+    <meta property="article:published_time" content="2024-11-06T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-11-06T00:00:00+00:00">
+    <meta property="article:tag" content="CareerOutcomes">
+    <meta property="article:tag" content="Self-Reflection">
+    <meta property="article:tag" content="Progress">
+    <meta property="article:tag" content="GoogleAnalytics">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Blog 001 - Baseline">
+  <meta name="twitter:description" content="In this post I reflect on my journey of skill improvement in data analytics, embracing progress over perfection.  My results demonstrate that being vulnerable and objective can provide key insights that are essential for ongoing learning and lead to overall progress vs trying to be a data expert in everything data. Conducting regular retrospectives on my progress by attempting a quantitative and qualitative analytical approach.">
+
+
+<link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
+<link rel="stylesheet" href="/css/footer.css" media="all">
+
+
+<link rel="stylesheet" href="/css/theme.css" media="all">
+
+<style>
+    :root {
+        --text-color: #343a40;
+        --text-secondary-color: #6c757d;
+        --text-link-color: #007bff;
+        --background-color: #eaedf0;
+        --secondary-background-color: #64ffda1a;
+        --primary-color: #007bff;
+        --secondary-color: #f8f9fa;
+
+         
+        --text-color-dark: #e4e6eb;
+        --text-secondary-color-dark: #b0b3b8;
+        --text-link-color-dark: #ffffff;
+        --background-color-dark: #313138;
+        --secondary-background-color-dark: #212529;
+        --primary-color-dark: #ffffff;
+        --secondary-color-dark: #212529;
+    }
+    body {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    html {
+        background-color: var(--background-color) !important;
+    }
+
+    body::-webkit-scrollbar {
+        height: 0px;
+        width: 8px;
+        background-color: var(--background-color);
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 1rem;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 1rem;
+        background: #b0b0b0;
+        outline: 1px solid var(--background-color);
+    }
+
+    #search-content::-webkit-scrollbar {
+        width: .5em;
+        height: .1em;
+        background-color: var(--background-color);
+    }
+</style>
+
+
+
+<meta name="description" content="In this post I reflect on my journey of skill improvement in data analytics, embracing progress over perfection.  My results demonstrate that being vulnerable and objective can provide key insights that are essential for ongoing learning and lead to overall progress vs trying to be a data expert in everything data. Conducting regular retrospectives on my progress by attempting a quantitative and qualitative analytical approach.">
+<link rel="stylesheet" href="/css/single.css">
+
+
+<script defer src="/fontawesome-6/all-6.4.2.js"></script>
+
+
+  
+  
+
+  <title>
+Blog 001 - Baseline | Nick Van Bergen Portfolio
+
+  </title>
+</head>
+
+<body class="light">
+  
+  
+<script>
+    let localStorageValue = localStorage.getItem("pref-theme");
+    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    switch (localStorageValue) {
+        case "dark":
+            document.body.classList.add('dark');
+            break;
+        case "light":
+            document.body.classList.remove('dark');
+            break;
+        default:
+            if (mediaQuery) {
+                document.body.classList.add('dark');
+            }
+            break;
+    }
+</script>
+
+
+
+
+<script>
+    var prevScrollPos = window.pageYOffset;
+    window.addEventListener("scroll", function showHeaderOnScroll() {
+        let profileHeaderElem = document.getElementById("profileHeader");
+        let currentScrollPos = window.pageYOffset;
+        let resetHeaderStyle = false;
+        let showNavBarOnScrollUp =  true ;
+        let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
+        if (showNavBar) {
+            profileHeaderElem.classList.add("showHeaderOnTop");
+        } else {
+            resetHeaderStyle = true;
+        }
+        if(currentScrollPos === 0) {
+            resetHeaderStyle = true;
+        }
+        if(resetHeaderStyle) {
+            profileHeaderElem.classList.remove("showHeaderOnTop");
+        }
+        prevScrollPos = currentScrollPos;
+    });
+</script>
+
+
+
+<header id="profileHeader">
+    <nav class="pt-3 navbar navbar-expand-lg animate">
+        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+            
+            <a class="navbar-brand primary-font text-wrap" href="/">
+                
+                <img src="/icons/line_robot.svg" width="30" height="30"
+                    class="d-inline-block align-top">
+                Nick Van Bergen
+                
+            </a>
+
+            
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
+                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                </svg>
+            </button>
+
+            
+            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
+                <ul class="navbar-nav ms-auto text-center">
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#about" aria-label="about">
+                            About Me
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#projects"
+                            aria-label="projects">
+                            Project Portfolio
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#experience"
+                            aria-label="experience">
+                            Work Experience
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#education"
+                            aria-label="education">
+                            Education
+                        </a>
+                    </li>
+                    
+
+
+
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#contact"
+                            aria-label="contact">
+                            Contact
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/blogs" title="Blog posts">
+                            
+                            Blog
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="https://notes.nickvanbergen.com/" title="Public Notes">
+                            
+                            Notes
+                        </a>
+                    </li>
+                    
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        
+                        <div class="text-center">
+                            <button id="theme-toggle">
+                                <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                                </svg>
+                                <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="5"></circle>
+                                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </li>
+                    
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="content">
+<section id="single">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-12 col-lg-9">
+        <div class="pr-lg-4">
+          <div class="title mb-5">
+            <h1 class="text-center mb-4">Blog 001 - Baseline</h1>
+            <div class="text-center">
+              
+                Nick Van Bergen
+                <small>|</small>
+              
+              Nov 6, 2024
+
+              
+              <span id="readingTime">
+                min read
+              </span>
+              
+            </div>
+          </div>
+          
+          <div class="featured-image">
+            <img class="img-fluid mx-auto d-block" src="/images/blog_posts/blog001/self-reflection8-bit.png" alt="Blog 001 - Baseline">
+          </div>
+          
+          <article class="page-content  p-2">
+          <h1 id="blog-001---baseline">Blog 001 - Baseline</h1>
+<blockquote>
+<p>TL/DR - Progress over Perfection
+In this post I reflect on my journey of skill improvement in data analytics, embracing progress over perfection.  My results demonstrate that being vulnerable and objective can provide key insights that are essential for ongoing learning and lead to overall progress vs trying to be a data expert in everything data. Conducting regular retrospectives on my progress by attempting a quantitative and qualitative analytical approach.</p>
+</blockquote>
+<h2 id="reminding-myself-that-consistent-progress-is-better-than-perfection">Reminding myself that consistent progress is better than perfection</h2>
+<p>A lot of us have this notion that the path to achieving anything is mostly linear.  <em>Do task X, result is Y.</em> Rinse, lather, and repeat until you&rsquo;re &ldquo;successful&rdquo;. The hard reality is that for nearly all of us, myself included, &ldquo;the path&rdquo; is neither straight nor directionally forward or even at times visible. It is this fact that is the most difficult for me right at this moment because it requires a great deal of self-reflection and seeing the true <em>current state</em> of my skills.</p>
+<p>This post aims to share my self-assessment journey in analytical and technical skills.  Going through this process is in the spirit of Learning in Public which is, in my opinion, essential for growth.  Honestly, this was a very hard blog post to write. Self-assessments can be scary because at the core of any self-assessment are some objective facts wrapped up in vulnerability and, eek, insecurity.</p>
+<h2 id="the-realization">The realization</h2>
+<p>I spent the last couple of months applying for data analyst roles of any kind. I have been fortunate that most of the roles which I have interviewed for were from recruiters who approached me first. This was unlike my prior job search which was only applying as a direct hire. Luckily, in nearly all of these interviews I was able to get to the final or penultimate rounds. Obviously, none were meant to be.</p>
+<p>In rejection after rejection I either received the feedback that hiring organization &ldquo;needed someone with more experience with SQL, Tableau, Master Financial Data, Alteryx, Pandas &hellip; buzzy ___  skill.&rdquo;,  or, I simply received no feedback at all. This is not uncommon for any job seeker and I am not indicating that my experience is any different or special. My point is that I was failing to get hired for a number of skill gaps.</p>
+<p>I would be lying if I said that a rejection still doesn&rsquo;t sting. It does. What is different today versus my last job search, is that I am not taking it personally or beating myself up. There&rsquo;s data in the rejection. Often it is rejection data that is more valuable than a simple successful trial.</p>
+<h3 id="not-a-question-of-_why_">Not a question of <em>why?</em></h3>
+<p>Because of my inquisitiveness, I began to ask questions. I started by taking a deep look at what I want and then working backwards from there. The key here was to stop worrying about the micro attribute of  &ldquo;Why?&rdquo;, but to broaden out to &ldquo;How?&rdquo; and &ldquo;Who?&rdquo;. That is, instead of asking &ldquo;Why did I fail to get this role at this employer?&rdquo;, I began to ask &ldquo;<em>How</em> could I better meet their needs and also <em>how</em> can I demonstrate technical and non-technical skills that make me a great colleague.&rdquo; and Lastly &ldquo;<em>Who</em> can I learn from to achieve my goal?&rdquo;</p>
+<p>According to the data that I had, the data was clearly telling me to upgrade very specific technical skills to take care of the <em>how</em> questions. That is great! Now I have something to do.  However, that was going to cost me time that would otherwise be spent finding potential roles and taking more interviews. The opportunity cost seemed to be pretty high so I thought that the answer to &ldquo;Who&rdquo; should be highly leverageable and provide more than just content and information. That&rsquo;s how I ended up at Coursera!</p>
+<p>Coursera offers a TON of options when looking to gain or re-learn technical skills. My current job search effort was clearly indicating that I should learn skills in data visualization tools (like Tableau), and get much much better at data access and manipulation tools (especially SQL). I found a solid course offered by Google and signed up!</p>
+<p>The next challenge is that again, it was going to take time. Was there a quick fix? My job search/ rejection data is also showing that a candidate needs to be at an advanced level in more areas than I was expecting for a junior-level role. Was this my naiveté  or ignorance of the demands of the job market?</p>
+<blockquote>
+<p>We could debate if this is a result of GenAI disrupting nearly everything but that is a topic for another post.</p>
+</blockquote>
+<p>I am not interested in passing an interview only to fail at the job. I want to learn new information. I want to apply concepts to challenges I have never seen before. In other words, I want to turn my newly gained information into knowledge!</p>
+<p>To achieve this goal I need to let go of perfectionism, start gathering more relevant objective data and apply an introspective process to assess (and then reassess) my current state. This demanded the implementation of some analysis and some public retrospectives to help me stay on track. My analytical weapon of choice came from all of the years working in corporate jobs; the self-assessment! But how could I judge my progress? I needed a rating system to use so I could deploy my retrospectives.</p>
+<h2 id="using-a-rating-system">Using a rating system</h2>
+<p>Like many of us in the corporate realm, we are all too familiar with the annual review process. On reflection, I decided to implement a similar system to help me stay on track with my learning goals and (fingers crossed) career outcomes. To do so, I chose a rating scale (1-5) used in the <a href="https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition">Dreyfus model of skill acquisition</a> because it provides a clear and tangible system of incremental growth. I can determine metrics at another time or even metric goals.</p>
+<h3 id="dreyfus-model-definitions">Dreyfus Model Definitions</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Rating</th>
+          <th style="text-align: left">Basic Description</th>
+          <th style="text-align: left">Dreyfus Model Summary *</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">1</td>
+          <td style="text-align: left">Novice</td>
+          <td style="text-align: left">&ldquo;No or little experience, acts only on guidelines/rules, does not comprehend context, ignorant of holistic view&rdquo;</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">2</td>
+          <td style="text-align: left">Advanced Beginner</td>
+          <td style="text-align: left">&ldquo;Some experience, acts based on guidelines and rules, capable of adjusting rules based on context, ignorant of holistic view&rdquo;</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">3</td>
+          <td style="text-align: left">Competent</td>
+          <td style="text-align: left">&ldquo;Moderate experience in the area, acts on rules but leverages experience, able to troubleshoot when rules seem to not apply &hellip; struggles to identify which details to focus on, has conceptual model of subject area&rdquo;</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">4</td>
+          <td style="text-align: left">Proficient</td>
+          <td style="text-align: left">&ldquo;Significant experience, comprehends context, able to reflect on approach and improve it, needs to understand holistic view&rdquo;</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">5</td>
+          <td style="text-align: left">Expert</td>
+          <td style="text-align: left">&ldquo;Thought leadership, contributes to the body of knowledge, identifies context rapidly, vast experience (time)&rdquo;</td>
+      </tr>
+  </tbody>
+</table>
+<h6 id="-source-from-novice-to-expert-rating-your-skills-by-luka-giorgadzehttpsmediumcomluka_giorgadzefrom-novice-to-expert-rating-your-skills-c7dd78f85ca8"><code>*</code> Source <a href="https://medium.com/@luka_giorgadze/from-novice-to-expert-rating-your-skills-c7dd78f85ca8">From Novice To Expert: Rating Your Skills by Luka Giorgadze</a></h6>
+<h3 id="before-and-after">Before-and-After</h3>
+<p>To deploy the rating system on my own learning, I will use the course syllabus and course questionnaire&rsquo;s to identify the skills which I will be learning in a given course. Then, a rating for each skill will be documented before the course is taken and again after the course is completed. I hope that the before-and-after approach should provide the key insight I need to proceed confidently into future interviews and work environments! Not only that, I actually feel like I can manage myself in my activities that relate directly to getting the role that I want.</p>
+<h3 id="progress-and-consistency">Progress and consistency.</h3>
+<p>The Google program has 8 courses! Each course has modules and each module has various subsections and activities. In order for my learning to be meaningful and given the speed at which I will be going through the material, it is critical for me to stay on-target with my specific goals. This requires consistent, daily, progress. If I worry about each day being perfect, well I think eventually I would just quit the project all together. I mean, why wait for all the traffic lights to be green to begin a road trip? So, I began.</p>
+<h3 id="the-first-inflection-point-are-you-a-beginner">The first inflection point: are you a beginner?</h3>
+<p>At the outset of the course, Google wanted to make sure that the learning sequence was a good fit for learners to continue forward. To do so, the course authors presented a questionnaire covering some of the core skills that a more person in a non-junior role might have. That is, if you could answer &ldquo;yes&rdquo; to all of their questions, you would be better served in a more advanced curriculum.</p>
+<p>The questionnaire had 11 questions. I ended that learning session with a sobering realization that, despite my ego telling me otherwise, I am a beginner. Though, I knew this from my experience in the job market to date.</p>
+<h3 id="fighting-old-demons-named-ego-and-pride">Fighting old demons named Ego and Pride</h3>
+<p>I was at odds with the results of the questionnaire but also knew that it was the right move to stay in the beginner track. My ego like the cartoon devil sitting on my shoulder, and was constantly reminding me of my past successes and achievements in the data field. Instead of an angel on my other shoulder, another devil, personal pride, also whispering that everything I have done already is important.  I needed time to acknowledge both devil characters. After all, I worked hard through each of my career incarnations. I needed to remind myself of what my current goals were: acquire new skills and RETAIN and use the knowledge. Not only that, I felt that having a public learning project would be fun. After the period of introspection, the power of the negative thoughts brought on by Ego and Pride lessened and lessened. I was able to move forward feeling good that I am not devaluing my self-worth in the process.</p>
+<p>Demons vanquished, the next challenge for me is to stay out of trying to learn everything perfectly and instead trust the process as a holistic journey. That is the hardest part because to me it seems like a risk. It&rsquo;s risky to know &ldquo;just enough&rdquo; when my goal is to attain mastery. Upon reflection, I decided to stay in the beginner level course because I want a solid foundation of skills. Not perfect skills but solid. I should trust the process. Now that I have a commitment, I actually needed to do the ratings, here is where I am at to-date:</p>
+<h2 id="skill-by-skill-analysis">Skill-by-skill analysis</h2>
+<h3 id="certificate-course-self-ratingshttpsnotesnickvanbergencomgoogleanalytics-1foundations-module1self-rating">Certificate Course <a href="https://notes.nickvanbergen.com/Google+Analytics+-+1+Foundations+-+Module+1#Self-Rating!">Self-ratings</a></h3>
+<p>This section will be updated to the <a href="https://notes.nickvanbergen.com/000_skills%2Bstats#Skills+and+learning">Skills and Learning Progress</a> page as courses are completed.</p>
+<h4 id="1-foundationshttpsnotesnickvanbergencomnexusfilesnexus-googleanalyticscertificatecourse1foundationsdata2cdata2ceverywhere-course-self-rating">1. <a href="https://notes.nickvanbergen.com/Nexus+Files/Nexus+-+Google+Analytics+Certificate+Course#1.+Foundations+Data%2C+Data%2C+Everywhere.">Foundations</a> course self-rating</h4>
+<p>Course began: 23-October-2024
+Course completed: 28-October-2024</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Topic/Skill</th>
+          <th style="text-align: left">Pre-course self-rating</th>
+          <th style="text-align: left">Post-course self-rating</th>
+          <th style="text-align: left">Retrospective</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Spreadsheet baiscs</td>
+          <td style="text-align: left">4</td>
+          <td style="text-align: left">4</td>
+          <td style="text-align: left">Didn&rsquo;t learn any new technical skills. I did learn that spreadsheets have existed for <a href="https://connectreport.com/blog/the-first-spreadsheets/">4k+ years!</a>, though. So that&rsquo;s something!</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Database and query basics</td>
+          <td style="text-align: left">2</td>
+          <td style="text-align: left">2</td>
+          <td style="text-align: left">Worked on <a href="https://notes.nickvanbergen.com/SELECT#SELECT">SELECT</a>, <a href="https://notes.nickvanbergen.com/FROM#FROM">FROM</a>, and <a href="https://notes.nickvanbergen.com/WHERE#WHERE">WHERE</a> to form basic <a href="https://notes.nickvanbergen.com/Query#Query">queries</a></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Data visualization basics</td>
+          <td style="text-align: left">3</td>
+          <td style="text-align: left">3</td>
+          <td style="text-align: left">No change. Only basics covered in this course using spreadsheets.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Thinking analytically</td>
+          <td style="text-align: left">5</td>
+          <td style="text-align: left">3</td>
+          <td style="text-align: left">Downgraded. I learned that thinking analytically is skill that requires flexibility and different points of view. Something I will continue to work on.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Applying tools from a toolkit</td>
+          <td style="text-align: left">3</td>
+          <td style="text-align: left">3</td>
+          <td style="text-align: left">I learned about <a href="https://notes.nickvanbergen.com/data+analysis+process#data+analysis+process">data analysis process</a>, Fairness, and <a href="https://notes.nickvanbergen.com/Data-driven+decision-making#Data-driven+decision-making">Data-driven decision-making</a> All will need to continue to be practiced</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Ensuring data analysis is fair</td>
+          <td style="text-align: left">2</td>
+          <td style="text-align: left">3</td>
+          <td style="text-align: left">Upgraded. Applying this in the toolkit/framework going forward.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Project communication strategies</td>
+          <td style="text-align: left">2</td>
+          <td style="text-align: left">3</td>
+          <td style="text-align: left">Upgraded. Learned about stakeholder alignment and context, learned about business tasks and began to learn effective communication strategies as it relates to expectation setting and <a href="https://notes.nickvanbergen.com/Fairness">Fairness</a></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">These ratings are just the start of a long-term improvement plan I’ll track throughout my learning journey.</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="2-ask-questions-to-make-data-driven-decisionshttpsnotesnickvanbergencomnexusfilesnexus-googleanalyticscertificatecourse2askquestionstomakedata-drivendecisions">2. <a href="https://notes.nickvanbergen.com/Nexus+Files/Nexus+-+Google+Analytics+Certificate+Course#2.+Ask+Questions+to+Make+Data-Driven+Decisions">Ask Questions to Make Data-Driven Decisions</a></h4>
+<p>Course began: 29-October-2024
+Course completed: TBD</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Topic/Skill</th>
+          <th style="text-align: left">Pre-course self-rating</th>
+          <th style="text-align: left">Post-course self-rating</th>
+          <th style="text-align: left">Retrospective</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Spreadsheet Formula and Function</td>
+          <td style="text-align: left">3</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Dashboard basics including intro to Tableau</td>
+          <td style="text-align: left">1</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Data reporting basics</td>
+          <td style="text-align: left">3</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">SMART and effective questions</td>
+          <td style="text-align: left">1</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Structured thinking</td>
+          <td style="text-align: left">3</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Summarizing Data</td>
+          <td style="text-align: left">3</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Putting things into context</td>
+          <td style="text-align: left">3</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Managing team and stakeholder expectations</td>
+          <td style="text-align: left">2</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Problem solving and conflict resolution</td>
+          <td style="text-align: left">1*</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>*</code> for this item, I want to say that I am willing to practice being humble and gaining other points of view.</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="keep-moving-forward">Keep moving forward</h2>
+<p>This is all starting to sound like Rocky Balboa&rsquo;s <a href="https://youtu.be/0N-c8MIFvaI?si=F8KT0d0Iy7AQ8jgv">speech</a> from the film &ldquo;Rocky&rdquo; and for good reason. It is good advice to hear when you&rsquo;re doing something uncomfortable and there is a feeling of failure looming on the horizon. All this to say that I am committed to the process of learning in public, and committed to the goal of not forgetting and transforming new information into useful knowledge that I can apply in a future role.</p>
+<p>To get to my goal, I will show what I have learned in my <a href="https://notes.nickvanbergen.com">Notes</a> and in my portfolio of projects on Github.  Incremental goal setting and goal setting methodology will be the subject of another post in the future. Suffice it to say that my goal is simple, do <em>something every day</em>. In other words;</p>
+<blockquote>
+<p>KEEP MOVING FORWARD</p>
+</blockquote>
+<p>That said, I encourage those of you considering a similar path to take some time and reflect in a before-and-after fashion. I think this well help anyone stay on target of their overall goals.</p>
+<p>You will not regret it, despite the feelings of vulnerability, you will improve a little bit every day. As they say a mile is just a bunch of steps &hellip; or something like that just keep going.</p>
+<p>Until next time,
+Nick VB</p>
+
+          </article>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3">
+        <div id="stickySideBar" class="sticky-sidebar">
+          
+          <aside class="toc">
+              <h5>
+                Table Of Contents
+              </h5>
+              <div class="toc-content">
+                <nav id="TableOfContents">
+  <ul>
+    <li><a href="#reminding-myself-that-consistent-progress-is-better-than-perfection">Reminding myself that consistent progress is better than perfection</a></li>
+    <li><a href="#the-realization">The realization</a>
+      <ul>
+        <li><a href="#not-a-question-of-_why_">Not a question of <em>why?</em></a></li>
+      </ul>
+    </li>
+    <li><a href="#using-a-rating-system">Using a rating system</a>
+      <ul>
+        <li><a href="#dreyfus-model-definitions">Dreyfus Model Definitions</a></li>
+        <li><a href="#before-and-after">Before-and-After</a></li>
+        <li><a href="#progress-and-consistency">Progress and consistency.</a></li>
+        <li><a href="#the-first-inflection-point-are-you-a-beginner">The first inflection point: are you a beginner?</a></li>
+        <li><a href="#fighting-old-demons-named-ego-and-pride">Fighting old demons named Ego and Pride</a></li>
+      </ul>
+    </li>
+    <li><a href="#skill-by-skill-analysis">Skill-by-skill analysis</a>
+      <ul>
+        <li><a href="#certificate-course-self-ratingshttpsnotesnickvanbergencomgoogleanalytics-1foundations-module1self-rating">Certificate Course <a href="https://notes.nickvanbergen.com/Google+Analytics+-+1+Foundations+-+Module+1#Self-Rating!">Self-ratings</a></a></li>
+      </ul>
+    </li>
+    <li><a href="#keep-moving-forward">Keep moving forward</a></li>
+  </ul>
+</nav>
+              </div>
+          </aside>
+          
+
+          
+          <aside class="tags">
+            <h5>Tags</h5>
+            <ul class="tags-ul list-unstyled list-inline">
+              
+              <li class="list-inline-item"><a href="https://www.nickvanbergen.com/tags/careeroutcomes"
+                target="_blank"
+              >CareerOutcomes</a></li>
+              
+              <li class="list-inline-item"><a href="https://www.nickvanbergen.com/tags/self-reflection"
+                target="_blank"
+              >self-reflection</a></li>
+              
+              <li class="list-inline-item"><a href="https://www.nickvanbergen.com/tags/progress"
+                target="_blank"
+              >progress</a></li>
+              
+              <li class="list-inline-item"><a href="https://www.nickvanbergen.com/tags/googleanalytics"
+                target="_blank"
+              >GoogleAnalytics</a></li>
+              
+            </ul>
+          </aside>
+          
+
+          
+          <aside class="social">
+            <h5>Social</h5>
+            <div class="social-content">
+              <ul class="list-inline">
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.nickvanbergen.com%2fblogs%2fblog-001---baseline%2f">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://twitter.com/share?text=Blog%20001%20-%20Baseline&url=https%3a%2f%2fwww.nickvanbergen.com%2fblogs%2fblog-001---baseline%2f">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://api.whatsapp.com/send?text=Blog%20001%20-%20Baseline: https%3a%2f%2fwww.nickvanbergen.com%2fblogs%2fblog-001---baseline%2f">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href='mailto:?subject=Blog%20001%20-%20Baseline&amp;body=Check%20out%20this%20site https%3a%2f%2fwww.nickvanbergen.com%2fblogs%2fblog-001---baseline%2f'>
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </aside>
+          
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-9 p-4">
+        
+      </div>
+    </div>
+  </div>
+  <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
+    <i class="fas fa-angle-up"></i>
+  </button>
+</section>
+
+
+<div class="progress">
+  <div id="scroll-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<Script src="/js/scrollProgressBar.js"></script>
+
+
+<script>
+  var topScroll = document.getElementById("topScroll");
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      topScroll.style.display = "block";
+    } else {
+      topScroll.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
+  
+  let stickySideBarElem = document.getElementById("stickySideBar");
+  let stickyNavBar =  true ;
+  if(stickyNavBar) {
+    let headerElem = document.getElementById("profileHeader");
+    let headerHeight = headerElem.offsetHeight + 15;
+    stickySideBarElem.style.top = headerHeight + "px";
+  } else {
+    stickySideBarElem.style.top = "50px";
+  }
+</script>
+
+
+<script src="/js/readingTime.js"></script>
+
+
+
+  </div><footer>
+    
+ 
+ 
+<div class="container py-3" id="recent-posts">
+    
+    
+    <div class="h3 text-center text-secondary py-3">
+        Recent Posts
+    </div>
+    <div class="row justify-content-center">
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-header">
+                    <a href="/blogs/blog-001---baseline/">
+                        <img src="/images/blog_posts/blog001/self-reflection8-bit.png" class="card-img-top" alt="Blog 001 - Baseline">
+                    </a>
+                </div>
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/blogs/blog-001---baseline/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Blog 001 - Baseline">Blog 001 - Baseline</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p><h1 id="blog-001---baseline">Blog 001 - Baseline</h1>
+<blockquote>
+<p>TL/DR - Progress over Perfection
+In this post I reflect on my journey of skill improvement in data analytics, embracing progress over perfection.  My results demonstrate that being vulnerable and objective can provide key insights that are essential for ongoing learning and lead …</p></blockquote></p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">Nov 6, 2024</span>
+                    <a href="/blogs/blog-001---baseline/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-header">
+                    <a href="/blogs/blog-000---restarting/">
+                        <img src="/images/blog_posts/blog000/blog000top.png" class="card-img-top" alt="Blog 000 - Restarting">
+                    </a>
+                </div>
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/blogs/blog-000---restarting/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Blog 000 - Restarting">Blog 000 - Restarting</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p><h1 id="restarting-is-never-easy">Restarting is never easy.</h1>
+<h3 id="welcome-to-nickvanbergencom-a-new-beginning">Welcome to NickVanBergen.com: A New Beginning</h3>
+<p>Hello and welcome to NickVanBergen.com!</p>
+<p>Launching this blog marks the beginning of a new chapter for me. I’ve always believed that the first step is often the hardest, but it’s also the most important. So, here I am, taking that …</p></p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">Oct 22, 2024</span>
+                    <a href="/blogs/blog-000---restarting/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<div class="text-center pt-2">
+    
+    <span class="px-1">
+        <a href="https://github.com/nvbergen" aria-label="github">
+            <svg xmlns="http://www.w3.org/2000/svg" width="2.7em" height="2.7em" viewBox="0 0 1792 1792">
+                <path id="footer-socialNetworks-github-svg-path"
+                    d="M522 1352q-8 9-20-3-13-11-4-19 8-9 20 3 12 11 4 19zm-42-61q9 12 0 19-8 6-17-7t0-18q9-7 17 6zm-61-60q-5 7-13 2-10-5-7-12 3-5 13-2 10 5 7 12zm31 34q-6 7-16-3-9-11-2-16 6-6 16 3 9 11 2 16zm129 112q-4 12-19 6-17-4-13-15t19-7q16 5 13 16zm63 5q0 11-16 11-17 2-17-11 0-11 16-11 17-2 17 11zm58-10q2 10-14 14t-18-8 14-15q16-2 18 9zm964-956v960q0 119-84.5 203.5t-203.5 84.5h-224q-16 0-24.5-1t-19.5-5-16-14.5-5-27.5v-239q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-121-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-86-13.5q-44 113-7 204-79 85-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-40 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 103t.5 68q0 22-11 33.5t-22 13-33 1.5h-224q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z" />
+
+                <metadata>
+                    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                        <rdf:Description about="https://iconscout.com/legal#licenses"
+                            dc:title="Github, Online, Project, Hosting, Square"
+                            dc:description="Github, Online, Project, Hosting, Square" dc:publisher="Iconscout"
+                            dc:date="2016-12-14" dc:format="image/svg+xml" dc:language="en">
+                            <dc:creator>
+                                <rdf:Bag>
+                                    <rdf:li>Font Awesome</rdf:li>
+                                </rdf:Bag>
+                            </dc:creator>
+                        </rdf:Description>
+                    </rdf:RDF>
+                </metadata>
+            </svg>
+        </a>
+    </span>
+    
+
+    
+    <span class="px-1">
+        <a href="https://linkedin.com/in/planetvb" aria-label="linkedin">
+            <svg xmlns="http://www.w3.org/2000/svg" width='2.4em' height='2.4em' fill="#fff" aria-label="LinkedIn"
+                viewBox="0 0 512 512">
+                <rect width="512" height="512" fill="#0077b5" rx="15%" />
+                <circle cx="142" cy="138" r="37" />
+                <path stroke="#fff" stroke-width="66" d="M244 194v198M142 194v198" />
+                <path d="M276 282c0-20 13-40 36-40 24 0 33 18 33 45v105h66V279c0-61-32-89-76-89-34 0-51 19-59 32" />
+            </svg>
+        </a>
+    </span>
+    
+
+    
+
+    
+
+    
+</div><div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+            
+                <div class="pb-2">
+                    <a href="https://www.nickvanbergen.com/" title="Nick Van Bergen Portfolio">
+                        <img alt="Footer logo" src="/icons/line_robot.svg"
+                            height="40px" width="40px">
+                    </a>
+                </div>
+            
+            &copy; 2024  Nick Van Bergen All rights reserved
+            
+        </div>
+    </div>
+</div>
+</footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  <section id="search-content" class="py-2">
+    <div class="container" id="search-results"></div>
+  </section>
+</body>
+
+</html>

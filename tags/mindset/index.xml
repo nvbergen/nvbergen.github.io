@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mindset on Nick Van Bergen Portfolio</title>
-    <link>http://localhost:1313/tags/mindset/</link>
+    <link>https://www.nickvanbergen.com/tags/mindset/</link>
     <description>Recent content in Mindset on Nick Van Bergen Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 22 Oct 2024 13:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/mindset/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.nickvanbergen.com/tags/mindset/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog 000 - Restarting</title>
-      <link>http://localhost:1313/blogs/blog-000---restarting/</link>
+      <link>https://www.nickvanbergen.com/blogs/blog-000---restarting/</link>
       <pubDate>Tue, 22 Oct 2024 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/blog-000---restarting/</guid>
+      <guid>https://www.nickvanbergen.com/blogs/blog-000---restarting/</guid>
       <description>&lt;h1 id=&#34;restarting-is-never-easy&#34;&gt;Restarting is never easy.&lt;/h1&gt;&#xA;&lt;h3 id=&#34;welcome-to-nickvanbergencom-a-new-beginning&#34;&gt;Welcome to NickVanBergen.com: A New Beginning&lt;/h3&gt;&#xA;&lt;p&gt;Hello and welcome to NickVanBergen.com!&lt;/p&gt;&#xA;&lt;p&gt;Launching this blog marks the beginning of a new chapter for me. I’ve always believed that the first step is often the hardest, but it’s also the most important. So, here I am, taking that first step and inviting you to join me on this journey.&lt;/p&gt;&#xA;&lt;h3 id=&#34;why-this-blog-exists&#34;&gt;Why This Blog Exists&lt;/h3&gt;&#xA;&lt;p&gt;I decided to create this blog, professional portfolio, and website for two main reasons. First, I&amp;rsquo;m entering a new job search, and this space will serve as a dynamic showcase of my skills, projects, and professional experiences. But more importantly, I want this platform to be a place where I can share my thoughts, ideas, and learnings, especially with those who, like me, are navigating the world of data engineering, data science, and technology.&lt;/p&gt;</description>
     </item>
   </channel>
