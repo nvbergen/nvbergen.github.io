@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Labtop on Nick Van Bergen Portfolio</title>
+    <link>http://localhost:1313/tags/labtop/</link>
+    <description>Recent content in Labtop on Nick Van Bergen Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/tags/labtop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog002</title>
+      <link>http://localhost:1313/blogs/blog-002---exploring-a-homelab/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/blog-002---exploring-a-homelab/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;TLDR&lt;/li&gt;&#xA;&lt;li&gt;What is a homelab, ?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;to do&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Modify pub date above&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; add relevant tags&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Outline&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;exploring-a-homelab&#34;&gt;Exploring a Homelab&lt;/h1&gt;&#xA;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;[! info] TL;DR&#xA;A homelab is an area where you can experiment with technical concepts. Can take many forms from a virtualized server to a full rack of hardware. For me, my homelab is a humble 11 year-old macbook air that has been collecting dust. My goal was equally minimal: 1 - get an install of a sever up and running, 2 - perform an SSH in from a different device on the same network, 3 - PostgreSQL RDBMS setup and query via an SSH session.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
